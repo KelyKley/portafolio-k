@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Home from './home';
-import SingIn from "./archive";
+import About from "./about";
 import { Provider } from 'redux-zero/react';
 import store from './store';
 import registerServiceWorker from './registerServiceWorker';
@@ -12,7 +12,7 @@ const Index = () => (
    <Provider store={store}>
       <HashRouter>
          <Switch>
-            <Route path="/SignIn" component={SingIn} />
+            <Route path="/about" component={About} />
             <Route path="/" component={Home} />
          </Switch>
       </HashRouter>
