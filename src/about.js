@@ -9,7 +9,7 @@ const About = () => {
             <div className="container dad" >
                 <div className="row son" >
                     <div className="home col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <NavLink to="/about" className="grow vertical-tab-2">
+                            <NavLink to="/home" className="grow vertical-tab-2">
                                 <p className="tab-title">2</p> 
                                 <p className="rotateAbout">About</p>
                             </NavLink>

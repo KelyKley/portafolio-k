@@ -9,7 +9,7 @@ const Home = () => {
             <div className="container dad" >
                 <div className="row son" >
                     <div className="home col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            <NavLink to="/contact" className="grow vertical-tab-4">
+                            <NavLink to="/home" className="grow vertical-tab-4">
                                 <p className="tab-title">4</p> 
                                 <p className="rotate">Contact</p>
                             </NavLink>
