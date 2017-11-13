@@ -87,13 +87,28 @@ style="float: right;"*/
     font-size: 0.75em; } }
 
 
-#about .rotateAbout {
+#about .rotateAbout, #projects .rotatePro, #contact .rotateContact {
   transform: rotate(0deg);
   -webkit-transform: rotate(0deg);
   margin-top: 50vh;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   color: #fff;
-  font-size: 2.25em;
+  /*font-size: 2.25em;*/
+  font-size: 4vw;
+  text-align: center;
   text-transform: uppercase; 
+}
+
+#aboutme .grow {
+  text-decoration: none;
+  padding: 5px 5px 5px 5px;
+  height: 100vh;
+  width: 75vw;
+  float: left;
+  position: relative;
+  transition: width 0.5s;
+  -webkit-transition: width 0.5s;
+  text-align: left;
+  overflow: hidden; 
 }
