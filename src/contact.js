@@ -15,6 +15,20 @@ const Contact = () => {
                             </NavLink>
                     </div>
                 </div>
+                <div id="aboutme" className="row" >
+                    <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div  className="grow">
+                                <p className="tab-title text-center">Kely añamuro</p> 
+                                <p className="text-justify">About</p>
+                                <ul class="social">
+                                    <li class="github"><a href="https://github.com/KelyKley"><i class="fa fa-github fa-3x"></i></a></li>
+                                    <li class="twitter"><a href="http://twitter.com/Kyokushinowa"><i class="fa fa-file-text-o fa-3x"></i></a></li>
+                                    <li class="google"><a href="http://www.pinterest.com/beatagibalska/"><i class="fa fa-google-plus fa-3x"></i></a></li>
+                                    <li class="linkedin"><a href="https://www.behance.net/Kurnikowa"><i class="fa fa-linkedin fa-3x"></i></a></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
